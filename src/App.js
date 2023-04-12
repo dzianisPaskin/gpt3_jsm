@@ -1,11 +1,20 @@
-import React from "react";
+import React from 'react';
+import { Brand, Navbar, CTA } from './components';
+import {
+  Footer,
+  Blog,
+  Features,
+  Header,
+  Possibility,
+  WhatGPT3,
+} from './containers';
 
- const App = () => {
+const App = () => {
   return (
     <>
-    <h1>GPT-3</h1>
+      <h1>GPT-3</h1>
     </>
   );
-}
+};
 
-export default App
+export default App;
